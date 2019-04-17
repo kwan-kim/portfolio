@@ -1,0 +1,56 @@
+
+.projectTitle{
+  font-size: 52px;
+}
+
+.projectArea{
+  position: relative;
+  margin-top:40px;
+}
+
+.projectWrap h3{
+  font-weight: bold;
+}
+.cardTitle{
+  font-size:22px;
+  padding:0px;
+  /* border-bottom:1px solid skyblue; */
+}
+
+.titleLabel{
+  border-left:3px solid skyblue;
+  margin-right:10px;
+}
+
+.btnGroup{
+  margin-top:-15px;
+  display: flex;
+}
+.linkBtn{
+  background:#20232a;
+  padding: 6px;
+  box-shadow: 3px 3px 2px rgb(194, 194, 194);
+  border-radius:5px;
+  cursor: pointer;
+  margin-right:10px;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+}
+.linkBtn:hover{
+  transform: scale(1.1 , 1.1);
+  transition: all 0.1s;
+}
+.linkBtn a{
+  font-size:14px;
+}
+
+.cheatfield a{
+  font-size:12px;
+}
+
+@media(max-width:980px){
+  .cardTitle{
+    padding-left: 0px;
+  }
+}

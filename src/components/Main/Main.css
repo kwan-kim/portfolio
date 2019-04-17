@@ -1,0 +1,15 @@
+.mainWrap{
+  position: relative;
+  margin-top:60px;
+}
+
+.container{
+  margin:0 auto;
+  max-width:1080px;
+  display: flex;
+}
+
+.mainContent{
+  flex:6;
+  padding:0 2%;
+}

@@ -1,0 +1,82 @@
+.topBar{
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  background: #20232A;
+  z-index: 9999;
+}
+
+.topContainer{
+  position: relative;
+  width: 1080px;
+  margin:0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topContainer img{
+  width: 60px;
+  height: 60px;
+}
+
+.logoWrap{
+  display: flex;
+  color:#fff;
+  align-items: center;
+}
+
+.topLogo{
+  width: 60px;
+  height: inherit;
+  animation: App-logo-spin infinite 20s linear;
+  margin-left:10px;
+}
+
+.kimkwan{
+  color:#fff;
+  font-size:24px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.topMenu{
+  color:#fff;
+  transition: all .5s;
+  white-space: nowrap;
+}
+
+.topMenu a:hover{
+  border-bottom: 1px solid #fff;
+}
+@media (max-width:1080px){
+  .topContainer{
+    width: 100%;
+  }
+}
+
+@media(min-width:980px){
+  .topMenu{
+    flex: 0 0 258px;
+  }
+}
+
+@media(max-width:980px){
+  .topMenu{
+    flex: 0 0 210px;
+  }
+}
+
+@media(max-width:640px){
+  .topMenu{
+    flex : 0;
+    margin-right:10px;
+  }
+}

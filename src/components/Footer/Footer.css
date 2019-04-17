@@ -1,0 +1,19 @@
+.footerWrap{
+  background: #20232A;
+  color:#999;
+  padding: 0 2%;
+}
+
+.footerWrap a{
+  color:#999;
+
+}
+.footerContainer{
+  max-width:1080px;
+  margin:0 auto;
+  padding: 3% 0;
+  font-size:16px;
+}
+.footerContent{
+  padding: 0 2%;
+}
