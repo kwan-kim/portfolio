@@ -4,7 +4,7 @@
 }
 
 .introduceWrap a{
-  background: rgb(214, 244, 255);
+  background: rgb(209, 209, 209);
   border-bottom:1px solid #ccc;
   color: #111;
 }
@@ -16,7 +16,7 @@
 }
 .tel{
   display: block;
-  background: rgb(240, 240, 240);
+  background: rgb(226, 226, 226);
   padding: 2%;
   border-radius: 5px;
   box-shadow: 1px 1px 15px rgb(235, 235, 235);
