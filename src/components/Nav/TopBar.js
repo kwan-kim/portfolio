@@ -18,7 +18,7 @@ const TopBar = () => {
         </div>
         <div className="topMenu">
         <i className="fab fa-github"></i> 
-        <a href="https://github.com/kim-kwan" target="blank" rel="noopener noreferrers"> GitHub</a>
+        <a href="https://github.com/kwan-kim" target="blank" rel="noopener noreferrers"> GitHub</a>
         </div>
       </div>
     </div>

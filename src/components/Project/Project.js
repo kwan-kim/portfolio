@@ -10,37 +10,40 @@ class Project extends React.Component {
       <div className="projectWrap" id="프로젝트">
         <h1 className="projectTitle title">프로젝트</h1>
         <div className="contents">
-          <h3><i className="fas fa-building"></i> (주)인포플라 </h3>
+          <h3><i className="fas fa-building"></i> (주) 구하다 </h3>
           <div className="projectArea">
-            <p className="cardTitle"><span className="titleLabel"></span> 인천국제공항공사 패스워드관리 관리자 페이지 ( 2019.03 ~ 2019.03 ) </p>
-            <p> 개요 : 전체 화면 설계 및 Vue.js , GraphQL 를 사용하여 프론트단 개발 </p>
-            <p> <i className="fas fa-caret-right"></i> 서버에 저장되어있는 데이터 출력 List Component 개발</p>
-            <p> <i className="fas fa-caret-right"></i> 데이터 검색 Component 개발</p>
-            <p> <i className="fas fa-caret-right"></i> 데이터 수정 Page Component 개발</p>
-            <p> <i className="fas fa-caret-right"></i> Header Component</p>
-            <p> <i className="fas fa-caret-right"></i> 소스관리 : git lab</p>
+            <p className="cardTitle"><span className="titleLabel"></span> e-commerce 플랫폼 구하다 ( 2019.04 ~ ) </p>
+            <p> 개요 : e-commerce 플랫폼 구하다 - PC / Mobile WEB 구축 </p>
+            <p> <i className="fas fa-caret-right"></i> React.js 기반의 ui 개발</p>
+            <p> <i className="fas fa-caret-right"></i> REST API , git</p>
+            <p> <i className="fas fa-caret-right"></i> 상세페이지(쿠폰,포인트,이미지 갤러리 등) </p>
+            <p> <i className="fas fa-caret-right"></i> 장바구니 페이지</p>
+            <p> <i className="fas fa-caret-right"></i> 주문결제, 주문완료 페이지</p>
+            <p> <i className="fas fa-caret-right"></i> 마이페이지(쿠폰, 포인트, 배송지관리 등)</p>
           </div>
           <div className="projectArea">
-            <p className="cardTitle"><span className="titleLabel"></span> (주)대동항업 견적서 페이지 부분 개발 ( 2019.02 ~ 2019.03 ) </p>
-            <p> 개요 : JavaScript/jQuery 를 이용한 견적서 페이지 개발 </p>
-            <p> <i className="fas fa-caret-right"></i> 견적서 8개 항목 개발</p>
-            <p> <i className="fas fa-caret-right"></i> 데이터 저장 을 위한 ajax 사용</p>
+            <p className="cardTitle"><span className="titleLabel"></span> 구하다 셀러어드민 사이트 ( 2019.07 ~ 2019.10 ) </p>
+            <p> 개요 : JavaScript/jQuery 를 이용한 어드민 사이트 개발 </p>
+            <p> <i className="fas fa-caret-right"></i> UI 마크업 </p>
+            <p> <i className="fas fa-caret-right"></i> jQuery UI, Interaction </p>
           </div>
         </div>
+
         <div className="contents">
           <h3> <i className="fas fa-building"></i> (주)레드홀릭 </h3>
           <div className="projectArea">
-            <p className="cardTitle"><span className="titleLabel"></span> 삼성물산 SSF SHOP 웹 사이트 운영팀 (파견) ( 2016.09 ~ 2018.10 ) </p>
+            <p className="cardTitle"><span className="titleLabel"></span> 삼성물산 SSF SHOP 웹 사이트 퍼블리싱 ( 2016.09 ~ 2018.10 ) </p>
             <p> 개요 : SSF SHOP 이벤트 페이지 개발 및 UI 마크업  </p>
             <p> <i className="fas fa-caret-right"></i> 기획전 페이지 퍼블리싱 마크업</p>
             <p> <i className="fas fa-caret-right"></i> 다수의 이벤트 페이지 개발</p>
             <p> <i className="fas fa-caret-right"></i> 고객 행동에 따른 동적 UI 개발</p>
-            <p> <i className="fas fa-caret-right"></i> 기획자 , 디자이너 , 개발자 와의 다양한 커뮤니케이션</p>
+            <p> <i className="fas fa-caret-right"></i> 기획, 디자인, 개발자 와의 다양한 커뮤니케이션</p>
           </div>
         </div>
+
         <div className="contents">
-          <h3> <i className="fas fa-user-astronaut"></i> 개인 포트폴리오 </h3>
-          <div className="projectArea">
+          <h3> <i className="fas fa-user-astronaut"></i> 개인 작업 </h3>
+          {/* <div className="projectArea">
             <p className="cardTitle"><span className="titleLabel"></span> React - 고객관리 매니저( 2019.04 )</p>
             <p> 개요 : React.js 로 만든 포트폴리오 프로젝트 </p>
             <p> <i className="fas fa-caret-right"></i> DB : Google - Firebase (API를 만들고, axios 통신) </p>
@@ -55,10 +58,10 @@ class Project extends React.Component {
                 <a href="https://github.com/kim-kwan/customer-manager" target="_blank" rel="noopener noreferrer">GitHub</a> 
               </p>
             </div>
-          </div>
+          </div> */}
           <div className="projectArea">
-            <p className="cardTitle"><span className="titleLabel"></span> JS - CHEAT FIELD (하이브리드 앱) ( 2018.04 ~ 2018.07 )</p>
-            <p> 개요 : 1인 개발 프로젝트 ( 기획 , 디자인 , 개발 ) 배포완료 </p>
+            <p className="cardTitle"><span className="titleLabel"></span>CHEAT FIELD( 2017.12 ~ 2018.07 )</p>
+            <p> 개요 : 웹 기반 실시간 채팅 및 매치 하이브리드 앱  </p>
             <p> <i className="fas fa-caret-right"></i> 서버 : node.js Express</p>
             <p> <i className="fas fa-caret-right"></i> DB : mongoDB , MySql</p>
             <p> <i className="fas fa-caret-right"></i> JS , HTML5 , CSS</p>
@@ -82,10 +85,10 @@ class Project extends React.Component {
             <p> <i className="fas fa-caret-right"></i> JS , jQuery , CSS </p>
             <div className="btnGroup">
               <p className="linkBtn">
-                <a href="https://kim-kwan.github.io/PT-Portfolio/" target="_blank" rel="noopener noreferrer">Demo</a> 
+                <a href="https://kwan-kim.github.io/pt" target="_blank" rel="noopener noreferrer">Demo</a> 
               </p>
               <p className="linkBtn">
-                <a href="https://github.com/kim-kwan/PT-Portfolio" target="_blank" rel="noopener noreferrer">GitHub</a> 
+                <a href="https://github.com/kwan-kim/pt" target="_blank" rel="noopener noreferrer">GitHub</a> 
               </p>
             </div>
           </div>
